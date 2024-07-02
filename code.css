@@ -1,0 +1,43 @@
+/* Reset des styles de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles pour le conteneur principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style pour encadrer le titre */
+.title-box {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title-box h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Style pour le contenu avec l'image à droite */
+.content {
+    display: flex;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-right: 20px; /* Espace à droite de l'image */
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    float: right; /* Alignement de l'image à droite */
+}
